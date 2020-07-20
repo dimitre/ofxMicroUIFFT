@@ -125,7 +125,8 @@ public:
 
 		larguraEq = int(sliderWidth / (nBands+2));
 		
-		debug = true;
+//		debug = true;
+		debug = false;
 		if (debug) {
 			cout << "------- ofxDmtrFft setUI" << endl;
 			cout << uiFFT->uiName << endl;
